@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "csdn-copyer",
+    "version": "1.0",
+    "description": "Running this extension, free to copy on CSDN",
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/content.js"
+            ],
+            "matches": [
+                "https://blog.csdn.net/*"
+            ]
+        }
+    ]
+}
